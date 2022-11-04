@@ -21,7 +21,7 @@
                             
                             <div class="form-group">
                                 <label class="font-weight-bold">NAMA</label>
-                                <input type="text" class="form-control @error('nama') is-invalid @enderror" name="nama" value="{{ old('nama') }}" placeholder="Masukkan Judul Post">
+                                <input type="text" class="form-control @error('nama') is-invalid @enderror" name="nama" value="{{ old('nama') }}" placeholder="Masukkan Nama Siswa">
                                 
                                 @error('nama')
                                 <div class="alert alert-danger mt-2">
@@ -31,7 +31,7 @@
                             </div>
                             <div class="form-group">
                                 <label class="font-weight-bold">ABSEN</label>
-                                <input type="text" class="form-control @error('absen') is-invalid @enderror" name="absen" value="{{ old('absen') }}" placeholder="Masukkan Judul Post">
+                                <input type="text" class="form-control @error('absen') is-invalid @enderror" name="absen" value="{{ old('absen') }}" placeholder="Masukkan Absen Siswa">
                                 
                                 @error('absen')
                                 <div class="alert alert-danger mt-2">
@@ -41,7 +41,7 @@
                             </div>
                             <div class="form-group">
                                 <label class="font-weight-bold">KELAS</label>
-                                <input type="text" class="form-control @error('kelas') is-invalid @enderror" name="kelas" value="{{ old('kelas') }}" placeholder="Masukkan Judul Post">
+                                <input type="text" class="form-control @error('kelas') is-invalid @enderror" name="kelas" value="{{ old('kelas') }}" placeholder="Masukkan Kelas Siswa">
                                 
                                 @error('kelas')
                                 <div class="alert alert-danger mt-2">
@@ -51,7 +51,7 @@
                             </div>
                             <div class="form-group">
                                 <label class="font-weight-bold">KETERANGAN</label>
-                                <input type="text" class="form-control @error('keterangan') is-invalid @enderror" name="keterangan" value="{{ old('keterangan') }}" placeholder="Masukkan Judul Post">
+                                <input type="text" class="form-control @error('keterangan') is-invalid @enderror" name="keterangan" value="{{ old('keterangan') }}" placeholder="Masukkan keterangan izin">
                                 
                                 @error('keterangan')
                                 <div class="alert alert-danger mt-2">
